@@ -1,0 +1,37 @@
+# === Fichiers Python ===
+*.py[cod]
+__pycache__/
+*.so
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Données ===
+data/*
+!data/.gitkeep      # On garde ce fichier vide pour versionner le dossier
+
+# === Fichiers système ===
+.DS_Store
+Thumbs.db
+
+# === Logs et rapports ===
+*.log
+*.pdf
+
+# === Fichiers environnement virtuel ===
+.env/
+.venv/
+env/
+venv/
+
+# === Cache de Streamlit ===
+dashboard/__pycache__/
+dashboard/.streamlit/
+
+# === Fichiers de dépendances ===
+pip-wheel-metadata/
+*.egg-info/
+
+# === Divers ===
+*.zip
+*.tar.gz
